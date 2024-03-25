@@ -14,7 +14,7 @@ const ApiUrl = config[import.meta.env.NODE_ENV || "development"].apiUrl;
 
 function App() {
   useEffect(() => {
-    fetch(ApiUrl + "/api")
+    fetch(ApiUrl + "api")
     .then((res) => res.json())
     .then((data) => {console.log(data)})
   }, [])
