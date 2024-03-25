@@ -2,7 +2,7 @@ const path = require('path')
 const express = require('express')
 const cors = require('cors')
 const nodemailer = require('nodemailer');
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3001;
@@ -11,12 +11,13 @@ const app = express();
 app.use(express.static(path.resolve(__dirname, '../build')))
 
 // const corsOptions = {
-//   origin: 'https://my-portfolio-qvn9.onrender.com',
+//   origin: 'https://my-portfolio-ui.onrender.com',
 // };
 // app.use(cors(corsOptions));
 
 app.use(cors())
-app.use(bodyParser.json())
+// app.use(bodyParser.json())
+app.use(express.json())
 // app.set('host', '*');
 
 
@@ -44,7 +45,8 @@ contactEmail.verify((error) => {
   }
 })
 
-app.post("/api/contact", bodyParser.urlencoded({extended: false}), (req, res) => {
+// app.post("/api/contact", bodyParser.urlencoded({extended: false}), (req, res) => {
+app.post("/api/contact", (req, res) => {
   const name = req.body.firstName + ' ' + req.body.lastName;
   const email = req.body.email;
   const message = req.body.message;
