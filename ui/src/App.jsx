@@ -10,7 +10,7 @@ import { Projects } from './components/Projects.jsx';
 import { Contact } from './components/Contact.jsx';
 import { Footer } from './components/Footer.jsx';
 
-const ApiUrl = config[process.env.NODE_ENV || "development"].apiUrl;
+const ApiUrl = config[import.meta.env.NODE_ENV || "development"].apiUrl;
 
 function App() {
   useEffect(() => {
