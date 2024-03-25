@@ -10,8 +10,9 @@ import { Projects } from './components/Projects.jsx';
 import { Contact } from './components/Contact.jsx';
 import { Footer } from './components/Footer.jsx';
 
-const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
-console.log(import.meta.env.UI_NODE_ENV)
+// const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
+// console.log(import.meta.env.UI_NODE_ENV)
+const ApiUrl = "https://priyanka-kannan-api.onrender.com"
 
 function App() {
   useEffect(() => {

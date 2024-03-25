@@ -1,6 +1,6 @@
 const config = {
     development: {
-        apiUrl: "http://localhost:5173/"
+        apiUrl: "http://localhost:5173"
     },
     production: {
         apiUrl: import.meta.env.AWS_API_ENV
