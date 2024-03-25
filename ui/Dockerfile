@@ -2,7 +2,7 @@
 FROM node:20.5.0-alpine
 
 # Clear npm cache
-RUN npm cache clean --force
+# RUN npm cache clean --force
 
 # Set working directory
 WORKDIR /app
