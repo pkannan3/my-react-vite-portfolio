@@ -15,7 +15,7 @@ export const Contact = () => {
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
 
-  const ApiUrl = config[import.meta.env.NODE_ENV || "development"].apiUrl;
+  const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
 
   const onFormUpdate = (category, value) => {
       setFormDetails({
