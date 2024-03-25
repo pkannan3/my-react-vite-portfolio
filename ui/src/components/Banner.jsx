@@ -121,10 +121,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.
+                  As a passionate and dedicated full-stack engineer, I bring a wealth of technical expertise honed through rigorous boot camp training and hands-on project experience. Proficient in a versatile array of programming languages including Python, JavaScript, and SQL, I specialize in crafting dynamic and responsive applications from front to back end.
                   </p>
                   <Nav.Link href="#connect">
                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
@@ -152,10 +149,7 @@ export const Banner = () => {
                       </span>
                     </h1>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry's standard dummy text
-                      ever since the 1500s, when an unknown printer took a galley of type
-                      and scrambled it to make a type specimen book.
+                    As a passionate and dedicated full-stack engineer, I bring a wealth of technical expertise honed through rigorous boot camp training and hands-on project experience. Proficient in a versatile array of programming languages including Python, JavaScript, and SQL, I specialize in crafting dynamic and responsive applications from front to back end.
                     </p>
                     <Nav.Link href="#connect">
                       <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
