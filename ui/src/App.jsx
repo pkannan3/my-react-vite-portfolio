@@ -11,10 +11,11 @@ import { Contact } from './components/Contact.jsx';
 import { Footer } from './components/Footer.jsx';
 
 const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
+console.log(import.meta.env.UI_NODE_ENV)
 
 function App() {
   useEffect(() => {
-    fetch(ApiUrl + "api")
+    fetch(ApiUrl + "/api")
     .then((res) => res.json())
     .then((data) => {console.log(data)})
   }, [])
