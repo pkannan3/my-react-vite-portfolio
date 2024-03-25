@@ -27,6 +27,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
+    console.log(ApiUrl)
     let response = await fetch(ApiUrl + "/api/contact", {
       method: "POST",
       headers: {
