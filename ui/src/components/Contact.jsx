@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
-import config from "../config";
+// import config from "../config";
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -15,7 +15,8 @@ export const Contact = () => {
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
 
-  const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
+  // const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
+  const ApiUrl = "https://priyanka-kannan-api.onrender.com"
 
   const onFormUpdate = (category, value) => {
       setFormDetails({
