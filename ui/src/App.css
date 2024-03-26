@@ -336,7 +336,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 260px 0 100px 0;
   height: 100vh;
-  background-image: url('./assets/img/banner-bg2.jpg');
+  background-image: url('./assets/img/bkgd-books3.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -429,12 +429,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 100px 0;
+  /* padding: 0 0 100px 0; */
   position: relative;
-  background-image: url(./assets/img/skills-bkgd2.png);
+  background-image: url(./assets/img/girl-reading.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto; /* Set the background size to 100% width and auto height */
-  background-position: left top; /* Align the background to the left top */
+  background-size: auto; /* Set the background size to 100% width and auto height */
+  background-position: left; /* Align the background to the left top */
 }
 
 .skill-bx {
@@ -443,6 +443,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-left: 150px;
 }
 
 .skill-grid {
@@ -655,7 +656,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Contact Css ************/
 .contact {
   /* background: linear-gradient(90.21deg, rgba(143, 182, 99, 0.826) -5.91%, rgb(123, 147, 96) 111.58%); */
-  background-image: url("../src/assets/img/bkgd-fruits.png");
+  background-image: url("../src/assets/img/bkdg-fruits2.png");
   padding: 60px 0 200px 0;
 
   position: relative;

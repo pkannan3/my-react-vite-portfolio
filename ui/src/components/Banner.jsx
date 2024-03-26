@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Nav, Navbar } from "react-bootstrap";
-import headerImg from "../assets/img/header-img2.png";
+import headerImg from "../assets/img/plant.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 
