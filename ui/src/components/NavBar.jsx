@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../assets/img/keyboard.png';
 import logo2 from '../assets/img/black-keyboard.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon4 from '../assets/img/nav-icon4.svg';
+import navIcon4 from '../assets/img/nav-linkedIn-icon.svg';
 import resume from '../assets/img/resume.pdf';
 // import { Link } from 'react-bootstrap-icons';
 

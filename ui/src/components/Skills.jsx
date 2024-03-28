@@ -68,6 +68,8 @@ export const Skills = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+
+
                   <div className="skill-bx" id="skills">
                     <h2>Skills</h2>
                     <p>Expertise in diverse programming languages, specializing in both back-end and front-end development. Skilled in crafting efficient system designs for optimal performance in web development.</p>
