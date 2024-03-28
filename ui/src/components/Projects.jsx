@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project1-landing.jpeg";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/project1-landing.png";
+import projImg2 from "../assets/img/project1-signup.png";
+import projImg3 from "../assets/img/project1-trips.png";
+import projImg4 from "../assets/img/project1-create.png";
 // import colorSharp1 from "../assets/img/color-sharp.png";
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -17,6 +18,39 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
+      title: "Signup",
+      description: "Create Account",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Trips",
+      description: "Trips Gallery",
+      imgUrl: projImg3,
+    },
+    {
+      title: "Create Trip",
+      description: "Integrated API",
+      imgUrl: projImg4,
+    },
+    {
+      title: "Budget",
+      description: "Responsive Expense Graph",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Itinerary",
+      description: "Sort by date",
+      imgUrl: projImg1,
+    },
+  ];
+
+  const project2 = [
+    {
+      title: "Landing Page",
+      description: "Travel Planner",
+      imgUrl: projImg1,
+    },
+    {
       title: "Trips",
       description: "Trips Gallery",
       imgUrl: projImg1,
@@ -40,39 +74,6 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
-    },
-  ];
-
-  const project2 = [
-    {
-      title: "Landing Page",
-      description: "Project/Task Tracker",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Dashboard",
-      description: "Responsive Graph",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Map",
-      description: "Integrated API",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Budget",
-      description: "Responsive Expense Graph",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Itinerary",
-      description: "Sort by date",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
     },
   ];
 
@@ -85,12 +86,12 @@ export const Projects = () => {
     {
       title: "Trips",
       description: "Trips Gallery",
-      imgUrl: projImg2,
+      imgUrl: projImg1,
     },
     {
       title: "Map",
       description: "Integrated API",
-      imgUrl: projImg3,
+      imgUrl: projImg1,
     },
     {
       title: "Budget",
@@ -100,12 +101,12 @@ export const Projects = () => {
     {
       title: "Itinerary",
       description: "Sort by date",
-      imgUrl: projImg2,
+      imgUrl: projImg1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg1,
     },
   ];
 
@@ -127,10 +128,10 @@ export const Projects = () => {
                   <Nav.Link eventKey="first">GuideMe</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">OrganizeMe</Nav.Link>
+                  <Nav.Link eventKey="second">Wardrobify</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Wardrobify</Nav.Link>
+                  <Nav.Link eventKey="third">OrganizeMe</Nav.Link>
                 </Nav.Item>
               </Nav>
               {/* <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}> */}
