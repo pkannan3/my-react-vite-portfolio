@@ -238,8 +238,9 @@ span.navbar-text {
 .vvd.scrolled-button {
   font-weight: 300;
   background-color: #ffffff;
-  color: #000000;
-  border: 2px solid #000000;
+  font-weight: 400;
+  color: black !important;
+  border: 1px solid black;
   padding: 10px 20px;
   cursor: pointer;
   transition: all 0.3s ease;

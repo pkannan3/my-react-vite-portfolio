@@ -5,6 +5,7 @@ import projImg1 from "../assets/img/project1-landing.png";
 import projImg2 from "../assets/img/project1-signup.png";
 import projImg3 from "../assets/img/project1-trips.png";
 import projImg4 from "../assets/img/project1-create.png";
+import projImg5 from "../assets/img/project-no-img.png";
 // import colorSharp1 from "../assets/img/color-sharp.png";
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -35,12 +36,12 @@ export const Projects = () => {
     {
       title: "Budget",
       description: "Responsive Expense Graph",
-      imgUrl: projImg1,
+      imgUrl: projImg5,
     },
     {
       title: "Itinerary",
       description: "Sort by date",
-      imgUrl: projImg1,
+      imgUrl: projImg5,
     },
   ];
 
