@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/email4.png";
+import contactImg from "../assets/img/email7.png";
 // import config from "../config";
 
 export const Contact = () => {
