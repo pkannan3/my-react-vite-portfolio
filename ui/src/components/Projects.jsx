@@ -36,12 +36,12 @@ export const Projects = () => {
     {
       title: "Budget",
       description: "Responsive Expense Graph",
-      imgUrl: projImg5,
+      imgUrl: projImg1,
     },
     {
       title: "Itinerary",
       description: "Sort by date",
-      imgUrl: projImg5,
+      imgUrl: projImg1,
     },
   ];
 

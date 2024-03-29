@@ -663,13 +663,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, rgba(131, 168, 88, 0.826) -5.91%, rgb(123, 147, 96) 111.58%);
-
   padding: 60px 0 200px 0;
 
-  /* background-image: url("../src/assets/img/bkdg-fruits2.png");*/
-  /* position: relative;
+  /* background-image: url("../src/assets/img/bkdg-fruits2.png");
+  position: relative;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% auto;9,9
   background-position: left top;  */
 }
 .contact img {
