@@ -16,7 +16,7 @@ export const Contact = () => {
   const [status, setStatus] = useState({});
 
   // const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
-  const ApiUrl = "https://priyanka-kannan-api.onrender.com"
+  const ApiUrl = "https://pkannan3.us-east-2.elasticbeanstalk.com"
 
   const onFormUpdate = (category, value) => {
       setFormDetails({
