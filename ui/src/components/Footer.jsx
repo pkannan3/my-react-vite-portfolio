@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import navIcon1 from "../assets/img/nav-icon1.svg";
+// import navIcon1 from "../assets/img/nav-icon1.svg";
 
 export const Footer = () => {
   return (
