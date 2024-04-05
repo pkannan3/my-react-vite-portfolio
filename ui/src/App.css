@@ -340,6 +340,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
+  align-content: center;
   height: 100vh;
   background-image: url('./assets/img/pexels-karolina-grabowska-4466418.jpg');
   background-position: top center;
