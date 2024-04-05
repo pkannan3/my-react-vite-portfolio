@@ -5,9 +5,6 @@ import projImg1 from "../assets/img/project1-landing.png";
 import projImg2 from "../assets/img/project1-signup.png";
 import projImg3 from "../assets/img/project1-trips.png";
 import projImg4 from "../assets/img/project1-create.png";
-import projImg5 from "../assets/img/project-no-img.png";
-// import colorSharp1 from "../assets/img/color-sharp.png";
-// import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
@@ -118,7 +115,7 @@ export const Projects = () => {
           <Col>
             <TrackVisibility>
                 {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__bounce": ""}>
+                <div>
                   <h2>Projects</h2>
                   <p>Explore my diverse portfolio showcasing expertise in Python, JS, React, Django, FastAPI, and PostgresSQL. These projects exemplify efficient solutions, spanning backend and frontend development.</p>
                 </div>}
@@ -135,7 +132,6 @@ export const Projects = () => {
                   <Nav.Link eventKey="third">OrganizeMe</Nav.Link>
                 </Nav.Item>
               </Nav>
-              {/* <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}> */}
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <Row>

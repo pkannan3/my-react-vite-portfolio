@@ -16,6 +16,7 @@ import microservices from '../assets/img/skills-microservices1.png';
 import ddd from '../assets/img/skills-ddd.png';
 import message from '../assets/img/skills-message.png';
 import event from '../assets/img/skills-event.png';
+import "animate.css";
 
 import Carousel from 'react-multi-carousel';
 import TrackVisibility from 'react-on-screen';
@@ -67,9 +68,7 @@ export const Skills = () => {
           <Col>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-
-
+                <div className={isVisible ? "" : ""}>
                   <div className="skill-bx" id="skills">
                     <h2>Skills</h2>
                     <p>Expertise in diverse programming languages, specializing in both back-end and front-end development. Skilled in crafting efficient system designs for optimal performance in web development.</p>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/email8.webp";
-// import config from "../config";
 
 export const Contact = () => {
   const formInitialDetails = {
