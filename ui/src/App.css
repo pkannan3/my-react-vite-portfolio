@@ -220,6 +220,7 @@ span.navbar-text {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
+/* nav icons scrolled */
 nav.navbar.scrolled .social-icon a {
   width: 42px;
   height: 42px;
@@ -230,7 +231,7 @@ nav.navbar.scrolled .social-icon a {
   align-items: center;
   justify-content: center;
   line-height: 1;
-  border: 1px solid rgba(0, 0, 0, 0.866);
+  border: 1px solid rgba(0, 0, 0, 0.646);
 }
 nav.navbar.scrolled .social-icon a::before {
   content: "";
