@@ -3,10 +3,9 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../assets/img/keyboard.png';
 import logo2 from '../assets/img/black-keyboard.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon4 from '../assets/img/nav-linkedIn-icon.svg';
-import navIcon2 from '../assets/img/nav-icon-github1.svg';
+import navIconLinkedIn from '../assets/img/nav-icon-linkedIn1.svg';
+import navIconGitHub from '../assets/img/nav-icon-github1.svg';
 import resume from '../assets/img/resume.pdf';
-// import { Link } from 'react-bootstrap-icons';
 
 //NavBar functional component
 export const NavBar = () => {
@@ -70,14 +69,14 @@ export const NavBar = () => {
           {/* Additional content aligned to the right of the Navbar */}
           <span className='navbar-text'>
             <div className='social-icon'>
-              <a href="https://www.linkedin.com/in/priyanka-dfw/" target='_blank'> <img src={scrolled ? navIcon4 : navIcon1} alt=""/> </a>
-            </div>
-            {/* <div className='social-icon'>
-              <a href="https://www.github.com/pkannan3" target='_blank'> <img src={scrolled ? navIcon4 : navIcon2} alt=""/> </a>
+              <a href="https://www.linkedin.com/in/priyanka-dfw/" target='_blank'> <img src={scrolled ? navIconLinkedIn : navIcon1} alt=""/> </a>
             </div>
             <div className='social-icon'>
-              <a href="https://www.gitlab/priyankannan" target='_blank'> <img src={scrolled ? navIcon4 : navIcon1} alt=""/> </a>
-            </div> */}
+              <a href="https://www.github.com/pkannan3" target='_blank'> <img src={scrolled ? navIconLinkedIn : navIconGitHub} alt=""/> </a>
+            </div>
+            <div className='social-icon'>
+              <a href="https://www.gitlab/priyankannan" target='_blank'> <img src={scrolled ? navIconLinkedIn : navIcon1} alt=""/> </a>
+            </div>
             <Nav.Link href="#connect">
               <button className={`vvd ${scrolled ? 'scrolled-button' : ''}`}>
                 <span>Let's Connect</span>
