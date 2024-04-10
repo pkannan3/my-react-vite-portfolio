@@ -46,32 +46,32 @@ export const Projects = () => {
   const project2 = [
     {
       title: "Landing Page",
-      description: "Travel Planner",
+      description: "Clothing Inventory",
       imgUrl: projectBlank,
     },
     {
-      title: "Trips",
+      title: "Shoes",
       description: "Trips Gallery",
       imgUrl: projectBlank,
     },
     {
-      title: "Map",
+      title: "Hats",
       description: "Integrated API",
       imgUrl: projectBlank,
     },
     {
-      title: "Budget",
-      description: "Responsive Expense Graph",
+      title: "Hats",
+      description: "GET hat(s), Create hat(s), Update and Delete hat(s)",
       imgUrl: projectBlank,
     },
     {
-      title: "Itinerary",
-      description: "Sort by date",
+      title: "Shoes",
+      description: "GET bin(s), Create bin(s), Update and Delete bin(s)",
       imgUrl: projectBlank,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      description: "",
       imgUrl: projectBlank,
     },
   ];
@@ -79,22 +79,22 @@ export const Projects = () => {
   const project3 = [
     {
       title: "Landing Page",
-      description: "Travel Planner",
+      description: "Login/Signup",
       imgUrl: projectBlank,
     },
     {
-      title: "Trips",
-      description: "Trips Gallery",
+      title: "Dashboard",
+      description: "Overview",
       imgUrl: projectBlank,
     },
     {
-      title: "Map",
-      description: "Integrated API",
+      title: "Projects",
+      description: "GET, PUT, POST, DELETE project(s)",
       imgUrl: projectBlank,
     },
     {
-      title: "Budget",
-      description: "Responsive Expense Graph",
+      title: "Tasks",
+      description: "GET, PUT, POST, DELETE tasks(s)",
       imgUrl: projectBlank,
     },
     {
@@ -130,7 +130,7 @@ export const Projects = () => {
                   <Nav.Link eventKey="second">Wardrobify</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">OrganizeMe</Nav.Link>
+                  <Nav.Link eventKey="third">TaskTracker</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
