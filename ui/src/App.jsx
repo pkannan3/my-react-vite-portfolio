@@ -12,7 +12,7 @@ import { Footer } from './components/Footer.jsx';
 
 // const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
 // console.log(import.meta.env.UI_NODE_ENV)
-const ApiUrl = "https://pkannan3.us-east-2.elasticbeanstalk.com"
+const ApiUrl = "https://my-react-vite-portfolio-api.com"
 
 function App() {
   useEffect(() => {
