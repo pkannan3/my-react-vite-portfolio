@@ -98,13 +98,13 @@ export const Projects = () => {
       imgUrl: projectBlank,
     },
     {
-      title: "Itinerary",
-      description: "Sort by date",
+      title: "Attachments",
+      description: "Add files to tasks/project",
       imgUrl: projectBlank,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Assign",
+      description: "Assign project(s)/task(s) to dept/team members",
       imgUrl: projectBlank,
     },
   ];
