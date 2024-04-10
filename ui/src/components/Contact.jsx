@@ -16,7 +16,7 @@ export const Contact = () => {
 
   // const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
   // const ApiUrl = "www.my-react-vite-portfolio-api.com"
-  const ApiUrl = config[import.meta.env.REACT_APP_API_URL || "development"].apiUrl;
+  const ApiUrl = config[import.meta.env.REACT_APP_API_URL || "http://localhost:3001"].apiUrl;
 
   const onFormUpdate = (category, value) => {
       setFormDetails({

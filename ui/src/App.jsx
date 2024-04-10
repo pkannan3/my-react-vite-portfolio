@@ -11,10 +11,10 @@ import { Contact } from './components/Contact.jsx';
 import { Footer } from './components/Footer.jsx';
 
 // const ApiUrl = config[import.meta.env.REACT_APP_API_URL || "development"].apiUrl;
-// console.log(import.meta.env.UI_NODE_ENV)
+// // console.log(import.meta.env.UI_NODE_ENV)
 // const ApiUrl = "www.my-react-vite-portfolio-api.com"
 
-const ApiUrl = config[import.meta.env.REACT_APP_API_URL || "development"].apiUrl;
+const ApiUrl = config[import.meta.env.REACT_APP_API_URL || "http://localhost:3001"].apiUrl;
 
 function App() {
   useEffect(() => {
