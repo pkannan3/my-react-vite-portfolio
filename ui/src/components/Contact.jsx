@@ -15,7 +15,7 @@ export const Contact = () => {
   const [status, setStatus] = useState({});
 
   // const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
-  const ApiUrl = "https://my-react-vite-portfolio-api.com"
+  const ApiUrl = "www.my-react-vite-portfolio-api.com"
 
   const onFormUpdate = (category, value) => {
       setFormDetails({
