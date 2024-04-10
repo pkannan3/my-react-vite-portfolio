@@ -5,6 +5,7 @@ import projImg1 from "../assets/img/project1-landing.png";
 import projImg2 from "../assets/img/project1-signup.png";
 import projImg3 from "../assets/img/project1-trips.png";
 import projImg4 from "../assets/img/project1-create.png";
+import projectBlank from "../assets/img/project-blank.png";
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
@@ -33,12 +34,12 @@ export const Projects = () => {
     {
       title: "Budget",
       description: "Responsive Expense Graph",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Itinerary",
       description: "Sort by date",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
   ];
 
@@ -46,32 +47,32 @@ export const Projects = () => {
     {
       title: "Landing Page",
       description: "Travel Planner",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Trips",
       description: "Trips Gallery",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Map",
       description: "Integrated API",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Budget",
       description: "Responsive Expense Graph",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Itinerary",
       description: "Sort by date",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
   ];
 
@@ -79,32 +80,32 @@ export const Projects = () => {
     {
       title: "Landing Page",
       description: "Travel Planner",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Trips",
       description: "Trips Gallery",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Map",
       description: "Integrated API",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Budget",
       description: "Responsive Expense Graph",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Itinerary",
       description: "Sort by date",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projectBlank,
     },
   ];
 
