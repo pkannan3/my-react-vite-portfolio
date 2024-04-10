@@ -79,7 +79,7 @@ export const NavBar = () => {
               <a href="https://www.github.com/pkannan3" target='_blank'> <img src={scrolled ? navIconGitHub2 : navIconGitHub1} alt=""/> </a>
             </div>
             <div className='social-icon gitlab'>
-              <a href="https://www.gitlab/priyankannan" target='_blank'> <img src={scrolled ? navIconGitLab2 : navIconGitLab1} alt=""/> </a>
+              <a href="https://gitlab.com/pkannan3" target='_blank'> <img src={scrolled ? navIconGitLab2 : navIconGitLab1} alt=""/> </a>
             </div>
             <Nav.Link href="#connect">
               <button className={`vvd ${scrolled ? 'scrolled-button' : ''}`}>
