@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-// import config from './config.jsx';
+import config from './config.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from './components/NavBar.jsx';
 import { Banner } from './components/Banner.jsx';
