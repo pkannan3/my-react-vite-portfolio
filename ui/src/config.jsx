@@ -3,7 +3,7 @@ const config = {
         apiUrl: "http://localhost:5173"
     },
     production: {
-        apiUrl: import.meta.env.VERCEL_API_ENV
+        apiUrl: import.meta.env.REACT_APP_API_URL
     },
     test: {
         apiUrl: ''
