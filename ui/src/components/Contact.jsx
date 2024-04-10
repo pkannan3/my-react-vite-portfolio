@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/email8.webp";
+import config from '../config.jsx';
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -16,7 +17,7 @@ export const Contact = () => {
 
   // const ApiUrl = config[import.meta.env.UI_NODE_ENV || "development"].apiUrl;
   // const ApiUrl = "www.my-react-vite-portfolio-api.com"
-  const ApiUrl = config[import.meta.env.REACT_APP_API_URL || "http://localhost:3001"].apiUrl;
+  const ApiUrl = config[import.meta.env.REACT_APP_API_URL || "development"].apiUrl;
 
   const onFormUpdate = (category, value) => {
       setFormDetails({
