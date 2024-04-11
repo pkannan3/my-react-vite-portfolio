@@ -389,7 +389,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* scroller toggler */
-/* nav.navbar .navbar-toggler-icon {
+nav.navbar.scrolled .navbar-toggler:active,
+nav.navbar.scrolled .navbar-toggler:focus {
+	outline: none;
+    box-shadow: none;
+}
+nav.navbar.scrolled .navbar-toggler-icon {
   width: 24px;
   height: 17px;
   background-image: none;
@@ -397,7 +402,39 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-bottom: 2px solid #000000;
   transition: all 300ms linear;
   top: -2px;
-} */
+}
+nav.navbar.scrolled .navbar-toggler-icon:focus {
+	border-bottom: 2px solid #000000;
+}
+nav.navbar.scrolled .navbar-toggler-icon:after,
+nav.navbar.scrolled .navbar-toggler-icon:before {
+	width: 24px;
+	position: absolute;
+	height: 2px;
+	background-color: #000000;
+	top: 0;
+	left: 0;
+	content: '';
+	z-index: 2;
+	transition: all 300ms linear;
+}
+nav.navbar.scrolled .navbar-toggler-icon:after {
+	top: 8px;
+}
+nav.navbar.scrolled .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+	transform: rotate(45deg);
+	background-color: #000000;
+	height: 2px;
+}
+nav.navbar.scrolled .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+	transform: translateY(8px) rotate(-45deg);
+	background-color: #000000;
+	height: 2px;
+}
+nav.navbar.scrolled .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+	border-color: transparent;
+}
+
 
 /************ Banner Css ************/
 .banner {
