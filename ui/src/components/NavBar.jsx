@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import logo from '../assets/img/keyboard.png';
-import logo2 from '../assets/img/black-keyboard.png';
+import logo from '../assets/img/logo-flower3.png';
+import logo2 from '../assets/img/logo-flower4.png';
 // import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIconLinkedIn1 from '../assets/img/nav-icon-linkedIn1.svg';
 import navIconLinkedIn2 from '../assets/img/nav-icon-linkedIn2.svg';
@@ -20,6 +20,8 @@ export const NavBar = () => {
   //'scrolled' is a state variable. Tracks wheather user has scrolled.
   //'setScrolled' is a setter function. Used to update the 'scrolled' state variable.
   const [scrolled, setScrolled] = useState(false);
+
+  const [dropdownVisible, setDropdownVisible] = useState(false);
 
   //Handles side effects (aka anything beyond rendering UI)
   useEffect(() => {
@@ -48,7 +50,9 @@ export const NavBar = () => {
   //Track active link using user interaction
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    setDropdownVisible(false);
   }
+
 
   return (
     // Navbar component with expanded functionality and dynamic styling based on the 'scrolled' state
@@ -56,13 +60,14 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand href="#home">
         <img src={scrolled ? logo2 : logo} alt="logo" className="logo" />
+        {/* <img src={logo} alt="greenFlowerLogo" className='logo' /> */}
         </Navbar.Brand>
         {/* Toggle (Pancake) for smaller screens */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" >
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setDropdownVisible(!dropdownVisible)} >
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         {/* Components to collapse on smaller screens */}
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className={dropdownVisible ? 'show' : ''}>
           <Nav className="me-auto">
             {/* Home, Skills, Projects links with conditional styling based on whether it's the active link */}
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>

@@ -148,6 +148,7 @@ nav.navbar.scrolled {
 
 nav.navbar a.navbar-brand {
     width: 9%;
+    margin:0;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
