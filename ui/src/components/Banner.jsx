@@ -132,7 +132,7 @@ export const Banner = () => {
           </Col>
         ) : (
           <>
-            <Col xs={12} md={6} xl={7}>
+            <Col xs={12} s={10} md={6} xl={7}>
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
