@@ -7,11 +7,12 @@ import proj1Img3 from "../assets/img/project1-trips.png";
 import proj1Img4 from "../assets/img/project1-create.png";
 import underConstruction from "../assets/img/under-construction.png";
 import proj3Img1 from "../assets/img/project3-login.png";
-import proj3Img2 from "../assets/img/project3-signup.png";
-import proj3Img3 from "../assets/img/project3-dashboard.png";
-import proj3Img4 from "../assets/img/project3-create-task.png";
-import proj3Img5 from "../assets/img/project3-project-task.png";
-import proj3Img6 from "../assets/img/project3-all-tasks.png";
+// import proj3Img2 from "../assets/img/project3-signup.png";
+import proj3Img2 from "../assets/img/project3-dashboard.png";
+import proj3Img3 from "../assets/img/project3-create-task.png";
+import proj3Img4 from "../assets/img/project3-project-task.png";
+import proj3Img5 from "../assets/img/project3-all-tasks.png";
+import proj3Img6 from "../assets/img/project3-upload.png";
 
 
 import projectBlank from "../assets/img/project-blank.png";
@@ -19,7 +20,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const project1 = [
+  const project3 = [
     {
       title: "Landing Page",
       description: "Travel Planner",
@@ -85,7 +86,7 @@ export const Projects = () => {
     },
   ];
 
-  const project3 = [
+  const project1 = [
     {
       title: "Landing Page",
       description: "Login/Signup",
@@ -93,27 +94,27 @@ export const Projects = () => {
     },
     {
       title: "Dashboard",
-      description: "Overview",
+      description: "GET, PUT, POST, DELETE project(s)",
       imgUrl: proj3Img2,
     },
     {
       title: "Projects",
       description: "GET, PUT, POST, DELETE project(s)",
-      imgUrl: proj3Img3,
+      imgUrl: proj3Img4,
     },
     {
       title: "Tasks",
       description: "GET, PUT, POST, DELETE tasks(s)",
-      imgUrl: proj3Img4,
+      imgUrl: proj3Img3,
     },
     {
-      title: "Attachments",
-      description: "Add files to tasks/project",
+      title: "All Tasks",
+      description: "Assign project(s)/task(s) to dept/team members",
       imgUrl: proj3Img5,
     },
     {
-      title: "Assign",
-      description: "Assign project(s)/task(s) to dept/team members",
+      title: "Upload Documents",
+      description: "Attach files to tasks/project",
       imgUrl: proj3Img6,
     },
   ];
