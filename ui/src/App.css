@@ -823,8 +823,8 @@ nav.navbar.scrolled .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
-  border: 1px solid rgb(224, 224, 224);
-  border-radius: 20px;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 5px;
   overflow: hidden;
   margin-bottom: 24px;
   width: 100%;

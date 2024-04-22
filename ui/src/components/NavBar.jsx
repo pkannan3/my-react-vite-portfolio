@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../assets/img/logo-flower3.png';
 import logo2 from '../assets/img/logo-flower4.png';
-// import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIconLinkedIn1 from '../assets/img/nav-icon-linkedIn1.svg';
 import navIconLinkedIn2 from '../assets/img/nav-icon-linkedIn2.svg';
 import navIconGitHub1 from '../assets/img/nav-icon-github1.svg';

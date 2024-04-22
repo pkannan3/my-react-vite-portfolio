@@ -1,10 +1,19 @@
 import React from 'react';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project1-landing.png";
-import projImg2 from "../assets/img/project1-signup.png";
-import projImg3 from "../assets/img/project1-trips.png";
-import projImg4 from "../assets/img/project1-create.png";
+import proj1Img1 from "../assets/img/project1-landing.png";
+import proj1Img2 from "../assets/img/project1-signup.png";
+import proj1Img3 from "../assets/img/project1-trips.png";
+import proj1Img4 from "../assets/img/project1-create.png";
+import underConstruction from "../assets/img/under-construction.png";
+import proj3Img1 from "../assets/img/project3-login.png";
+import proj3Img2 from "../assets/img/project3-signup.png";
+import proj3Img3 from "../assets/img/project3-dashboard.png";
+import proj3Img4 from "../assets/img/project3-create-task.png";
+import proj3Img5 from "../assets/img/project3-project-task.png";
+import proj3Img6 from "../assets/img/project3-all-tasks.png";
+
+
 import projectBlank from "../assets/img/project-blank.png";
 import TrackVisibility from 'react-on-screen';
 
@@ -14,32 +23,32 @@ export const Projects = () => {
     {
       title: "Landing Page",
       description: "Travel Planner",
-      imgUrl: projImg1,
+      imgUrl: proj1Img1,
     },
     {
       title: "Signup",
       description: "Create Account",
-      imgUrl: projImg2,
+      imgUrl: proj1Img2,
     },
     {
       title: "Trips",
       description: "Trips Gallery",
-      imgUrl: projImg3,
+      imgUrl: proj1Img3,
     },
     {
       title: "Create Trip",
       description: "Integrated API",
-      imgUrl: projImg4,
+      imgUrl: proj1Img4,
     },
     {
       title: "Budget",
       description: "Responsive Expense Graph",
-      imgUrl: projectBlank,
+      imgUrl: underConstruction,
     },
     {
       title: "Itinerary",
       description: "Sort by date",
-      imgUrl: projectBlank,
+      imgUrl: underConstruction,
     },
   ];
 
@@ -47,32 +56,32 @@ export const Projects = () => {
     {
       title: "Landing Page",
       description: "Clothing Inventory",
-      imgUrl: projectBlank,
+      imgUrl: underConstruction,
     },
     {
       title: "Shoes",
       description: "Trips Gallery",
-      imgUrl: projectBlank,
+      imgUrl: underConstruction,
     },
     {
       title: "Hats",
       description: "Integrated API",
-      imgUrl: projectBlank,
+      imgUrl: underConstruction,
     },
     {
       title: "Hats",
       description: "GET hat(s), Create hat(s), Update and Delete hat(s)",
-      imgUrl: projectBlank,
+      imgUrl: underConstruction,
     },
     {
       title: "Shoes",
       description: "GET bin(s), Create bin(s), Update and Delete bin(s)",
-      imgUrl: projectBlank,
+      imgUrl: underConstruction,
     },
     {
       title: "",
       description: "",
-      imgUrl: projectBlank,
+      imgUrl: underConstruction,
     },
   ];
 
@@ -80,32 +89,32 @@ export const Projects = () => {
     {
       title: "Landing Page",
       description: "Login/Signup",
-      imgUrl: projectBlank,
+      imgUrl: proj3Img1,
     },
     {
       title: "Dashboard",
       description: "Overview",
-      imgUrl: projectBlank,
+      imgUrl: proj3Img2,
     },
     {
       title: "Projects",
       description: "GET, PUT, POST, DELETE project(s)",
-      imgUrl: projectBlank,
+      imgUrl: proj3Img3,
     },
     {
       title: "Tasks",
       description: "GET, PUT, POST, DELETE tasks(s)",
-      imgUrl: projectBlank,
+      imgUrl: proj3Img4,
     },
     {
       title: "Attachments",
       description: "Add files to tasks/project",
-      imgUrl: projectBlank,
+      imgUrl: proj3Img5,
     },
     {
       title: "Assign",
       description: "Assign project(s)/task(s) to dept/team members",
-      imgUrl: projectBlank,
+      imgUrl: proj3Img6,
     },
   ];
 
