@@ -105,6 +105,7 @@ export const Banner = () => {
         <Row className="aligh-items-center">
         {navbarCollapsed ? (
           <Col>
+            <p className='mobile-message'>Mobile application in progress</p>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>

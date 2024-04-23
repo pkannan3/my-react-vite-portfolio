@@ -480,6 +480,12 @@ nav.navbar.scrolled .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 5px;
 }
 
+.banner .mobile-message {
+  background-color: rgba(215, 137, 77, 0.784);
+  color: white;
+
+}
+
 .banner button {
   color: #fafafa;
   font-weight: 700;
