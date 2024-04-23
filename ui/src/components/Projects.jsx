@@ -38,7 +38,7 @@ export const Projects = () => {
     },
     {
       title: "Tasks",
-      description: "POST, Assign project(s)/task(s) to team members",
+      description: "POST, Assign task to project and team member",
       imgUrl: proj3Img3,
     },
     {
