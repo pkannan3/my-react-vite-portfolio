@@ -20,36 +20,36 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const project3 = [
+  const project1 = [
     {
       title: "Landing Page",
-      description: "Travel Planner",
-      imgUrl: proj1Img1,
+      description: "Login/Signup",
+      imgUrl: proj3Img1,
     },
     {
-      title: "Signup",
-      description: "Create Account",
-      imgUrl: proj1Img2,
+      title: "Dashboard",
+      description: "GET, PUT, POST, DELETE project(s)",
+      imgUrl: proj3Img2,
     },
     {
-      title: "Trips",
-      description: "Trips Gallery",
-      imgUrl: proj1Img3,
+      title: "Projects",
+      description: "GET, PUT, POST, DELETE project(s)",
+      imgUrl: proj3Img4,
     },
     {
-      title: "Create Trip",
-      description: "Integrated API",
-      imgUrl: proj1Img4,
+      title: "Tasks",
+      description: "POST, Assign project(s)/task(s) to dept/team members",
+      imgUrl: proj3Img3,
     },
     {
-      title: "Budget",
-      description: "Responsive Expense Graph",
-      imgUrl: underConstruction,
+      title: "All Tasks",
+      description: "GET, PUT, DELETE tasks(s)",
+      imgUrl: proj3Img5,
     },
     {
-      title: "Itinerary",
-      description: "Sort by date",
-      imgUrl: underConstruction,
+      title: "Upload Documents",
+      description: "Attach files to tasks/project",
+      imgUrl: proj3Img6,
     },
   ];
 
@@ -86,36 +86,36 @@ export const Projects = () => {
     },
   ];
 
-  const project1 = [
+  const project3 = [
     {
       title: "Landing Page",
-      description: "Login/Signup",
-      imgUrl: proj3Img1,
+      description: "Travel Planner",
+      imgUrl: proj1Img1,
     },
     {
-      title: "Dashboard",
-      description: "GET, PUT, POST, DELETE project(s)",
-      imgUrl: proj3Img2,
+      title: "Signup",
+      description: "Create Account",
+      imgUrl: proj1Img2,
     },
     {
-      title: "Projects",
-      description: "GET, PUT, POST, DELETE project(s)",
-      imgUrl: proj3Img4,
+      title: "Trips",
+      description: "Trips Gallery",
+      imgUrl: proj1Img3,
     },
     {
-      title: "Tasks",
-      description: "GET, PUT, POST, DELETE tasks(s)",
-      imgUrl: proj3Img3,
+      title: "Create Trip",
+      description: "Integrated API",
+      imgUrl: proj1Img4,
     },
     {
-      title: "All Tasks",
-      description: "Assign project(s)/task(s) to dept/team members",
-      imgUrl: proj3Img5,
+      title: "Budget",
+      description: "Responsive Expense Graph",
+      imgUrl: underConstruction,
     },
     {
-      title: "Upload Documents",
-      description: "Attach files to tasks/project",
-      imgUrl: proj3Img6,
+      title: "Itinerary",
+      description: "Sort by date",
+      imgUrl: underConstruction,
     },
   ];
 
